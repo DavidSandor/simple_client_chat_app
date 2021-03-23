@@ -29,7 +29,7 @@ For the sake of simplicity after you have downloaded the repo, you only have to 
 
 - Only the received messages (with not your nickname) will show sender nicknames in the chat area.
 
-- If you have any empty nickname your message will not be sent.
+- If you have an empty nickname your message will not be sent.
 
 - If something goes wrong during websocket server connection an error message will indicate that on the top left corner of the chat area, and messages will not be sent/received.
 
