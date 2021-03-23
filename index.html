@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Chat client</title>
+</head>
+<body>
+
+    <div id="chat-wrapper">
+        <small id="conn-failed">Connection failed to server!</small>
+        <div id="chat-area"></div>
+        <div id="chat-controls">
+            <input id="inp-user" class="chat-control" type="text" value="Guest">
+            <input id="inp-chat" class="chat-control" type="text" placeholder="Type here to chat">
+            <button id="btn-send" class="chat-control">Send</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="socket/socket.io.js"></script>
+    <script type="text/javascript" src="modules/domChatMessageBuilder.js"></script>
+    <script type="text/javascript" src="modules/socketConnection.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
